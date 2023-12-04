@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="portugal_gradiante">
+        <item name="android:background">@drawable/portugal_gradiante</item>>
+    </style>
+
+    <style name="manchester_united_gradiante">
+        <item name="android:background">@drawable/mancester_united_gradiante</item>
+    </style>
+
+    <style name="real_madrid_gradiante">
+        <item name="android:background">@drawable/real_madrid_gradiante</item>
+    </style>
+
+    <style name="al_nassr_gradiante">
+        <item name="android:background">@drawable/al_nassr_gradiante</item>
+    </style>
+</resources>

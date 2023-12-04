@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">App Camisas Do CR7</string>
+    <string name="txt_titulo">Coleção de Camisas do CR7</string>
+
+    <string name="adicionar">Adicionar</string>
+
+    <string name="portugal">Portugal</string>
+    <string name="al_nassr">Al Nassr</string>
+    <string name="real_madrid">Real Madrid</string>
+    <string name="manchester_united">Manchester United</string>
+
+    <string name="descricao_real_madrid">Essa é a coleção de camisas que o Cristiano Ronaldo usou no Real Madrid</string>
+    <string name="descricao_al_nassr">Essa é a coleção de camisas que o Cristiano Ronaldo usou no Al Nassr</string>
+    <string name="descricao_manchester_united">Essa é a coleção de camisas que o Cristiano Ronaldo usou no Manchester United</string>
+    <string name="descricao_portugal">Essa é a coleção de camisas que o Cristiano Ronaldo usou na seleção Portugal</string>
+
+    <string name="camisa_al_nassr_2023">Camisa 2023 - Al Nassr</string>
+
+    <string name="camisa_manchester_united_2007">Camisa 2007 - Manchester United</string>
+    <string name="camisa_manchester_united_2008">Camisa 2008 - Manchester United</string>
+
+    <string name="camisa_portugal_2006">Camisa 2006 - Portugal</string>
+    <string name="camisa_portugal_2010">Camisa 2010 - Portugal</string>
+    <string name="camisa_portugal_2014">Camisa 2014 - Portugal</string>
+    <string name="camisa_portugal_2018">Camisa 2018 - Portugal</string>
+    <string name="camisa_portugal_2022">Camisa 2022 - Portugal</string>
+
+    <string name="camisa_real_madrid_2009">Camisa 2009 - Real Madrid</string>
+    <string name="camisa_real_madrid_2010">Camisa 2010 - Real Madrid</string>
+    <string name="camisa_real_madrid_2011">Camisa 2011 - Real Madrid</string>
+    <string name="camisa_real_madrid_2012">Camisa 2012 - Real Madrid</string>
+    <string name="camisa_real_madrid_2013">Camisa 2013 - Real Madrid</string>
+    <string name="camisa_real_madrid_2014">Camisa 2014 - Real Madrid</string>
+    <string name="camisa_real_madrid_2015">Camisa 2015 - Real Madrid</string>
+    <string name="camisa_real_madrid_2016">Camisa 2016 - Real Madrid</string>
+    <string name="camisa_real_madrid_2017">Camisa 2017 - Real Madrid</string>
+
+    <string name="hint_campo">Informe a descrição da camisa</string>
+    <string name="hint_campo_main_activity">Informe o nome da nova coleção</string>
+</resources>

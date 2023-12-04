@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6D6D6"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/black">
+
+            <TextView
+                android:id="@+id/txt_titulo"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="44dp"
+                android:layout_marginBottom="40dp"
+                android:fontFamily="@font/quantico"
+                android:text="@string/txt_titulo"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+                android:background="#D6D6D6">
+
+                <ImageButton
+                    android:id="@+id/img_btn_portugal"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="24dp"
+                    app:srcCompat="@mipmap/escudo_portugal"
+                    android:scaleType="fitXY" />
+
+                <ImageButton
+                    android:id="@+id/img_btn_realMadrid"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="24dp"
+                    app:srcCompat="@mipmap/escudo_real_madrid"
+                    android:scaleType="fitXY"/>
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="#D6D6D6">
+
+                <ImageButton
+                    android:id="@+id/img_btn_manchesterUnited"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="24dp"
+                    app:srcCompat="@mipmap/escudo_manchester_united"
+                    android:scaleType="fitXY"/>
+
+                <ImageButton
+                    android:id="@+id/img_btn_alNassr"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="24dp"
+                    app:srcCompat="@mipmap/escudo_al_nassr"
+                    android:scaleType="fitXY"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <ImageButton
+                    android:id="@+id/nova_imagem"
+                    android:layout_width="170dp"
+                    android:layout_height="150dp"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="24dp"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@android:drawable/ic_menu_add" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginEnd="25dp"
+                    android:hint="@string/hint_campo_main_activity"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_adicionar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="45dp"
+                android:layout_marginEnd="40dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/black"
+                android:text="@string/adicionar"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
